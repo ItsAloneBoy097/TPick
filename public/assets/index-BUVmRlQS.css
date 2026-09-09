@@ -27,3 +27,19 @@ button,a{touch-action:manipulation}
   html{scroll-behavior:auto}
   *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+/* Step 4 visual polish: tighter mobile rhythm, stronger tap targets, and cleaner media rendering. */
+button,a{ -webkit-tap-highlight-color:transparent }
+img{image-rendering:auto}
+@media (max-width: 767px){
+  button,a[href]{min-height:44px}
+  header{backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+  section{scroll-margin-top:5rem}
+  .aspect-video img,.aspect-square img{width:100%;height:100%;object-fit:cover}
+}
+@media (max-width: 479px){
+  .text-4xl{font-size:2rem;line-height:1.08}
+  .text-3xl{font-size:1.65rem;line-height:1.12}
+  .text-xl{font-size:1.125rem;line-height:1.5}
+  .py-16{padding-top:3.25rem;padding-bottom:3.25rem}
+  .py-12{padding-top:2.5rem;padding-bottom:2.5rem}
+}
