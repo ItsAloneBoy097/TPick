@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
+# Admin route removed; no private frontend routes are shipped.
 
 Sitemap: https://tpick-clone.hatchable.site/sitemap.xml
