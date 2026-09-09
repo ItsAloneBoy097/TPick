@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://tpick-clone.hatchable.site/sitemap.xml

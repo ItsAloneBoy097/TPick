@@ -1,0 +1,5 @@
+/* Step 4 production polish — additive only, preserving the reference visual system. */
+:focus-visible{outline:2px solid rgba(255,255,255,.9);outline-offset:3px;border-radius:4px}
+.skip-link{position:fixed;left:1rem;top:1rem;z-index:99999;transform:translateY(-200%);padding:.65rem 1rem;background:#fff;color:#1f1f1f;border-radius:.5rem;font-weight:700}
+.skip-link:focus{transform:translateY(0)}
+@media (prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
